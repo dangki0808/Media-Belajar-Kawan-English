@@ -1,0 +1,37 @@
+KAWAN ENGLISH — CARA PASANG DI ANDROID (GRATIS)
+==============================================
+
+Isi folder:
+  index.html, app.js, data.js, sw.js, manifest.webmanifest, folder icons/
+  (data.js = bank materi. Mau menambah soal? Edit file ini.)
+
+LANGKAH 1 — Online-kan aplikasinya (pilih salah satu, semuanya gratis)
+
+  A. Netlify Drop (paling cepat, perlu laptop/PC)
+     1. Ekstrak zip ini.
+     2. Buka https://app.netlify.com/drop lalu daftar/masuk (gratis).
+     3. Seret folder "kawan-english" ke halaman tersebut.
+     4. Anda mendapat alamat seperti https://nama-acak.netlify.app
+
+  B. GitHub Pages (bisa dari laptop, atau HP dengan mode desktop di Chrome)
+     1. Buat repository baru di github.com, misalnya "kawan-english" (Public).
+     2. Add file > Upload files > unggah SEMUA isi folder (termasuk folder icons).
+     3. Settings > Pages > Source: "Deploy from a branch", Branch: main / root > Save.
+     4. Tunggu 1–2 menit. Alamatnya: https://USERNAME.github.io/kawan-english/
+
+LANGKAH 2 — Pasang di HP Android
+  1. Buka alamat tadi di Google Chrome di HP.
+  2. Ketuk menu ⋮ > "Instal aplikasi" (atau "Tambahkan ke layar utama").
+  3. Ikon Kawan English muncul di layar utama dan bisa dibuka offline.
+
+OPSIONAL — Membuat file APK sungguhan (gratis)
+  1. Buka https://www.pwabuilder.com dan masukkan alamat aplikasi dari Langkah 1.
+  2. Pilih "Package for stores" > Android > Generate.
+  3. Unduh paket .zip, kirim ke HP, lalu pasang file .apk di dalamnya
+     (izinkan "Instal aplikasi dari sumber tidak dikenal" bila diminta).
+
+CATATAN
+  - Progres (XP, streak, kosakata) tersimpan di HP itu sendiri.
+  - Speaking memakai pengenalan suara Google Chrome, butuh internet.
+  - Bila suara bahasa Inggris tidak keluar: Setelan > Bahasa & input >
+    Output text-to-speech > pilih "Speech Services by Google", bahasa English (US).
